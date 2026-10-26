@@ -1,0 +1,27 @@
+Acuracia de validacao final: 93.17%
+Acuracia de treino final:   98.67%
+
+Matriz de confusao (linhas = real, colunas = previsto):
+               casa eu_te_am     joia      nao obrigado       oi       ok      paz      sim telefone
+      casa       60        0        0        0        0        0        0        0        0        0
+ eu_te_amo        0       60        0        0        0        0        0        0        0        0
+      joia        0        0       60        0        0        0        0        0        0        0
+       nao        0        0        0       59        0        0        1        0        0        0
+  obrigado        0        0        0        0       54        0        0        0        6        0
+        oi        0        0        0        0        0       58        2        0        0        0
+        ok        0        0        0        1        0        0       56        0        0        3
+       paz        1        0        0        0        0        0        0       59        0        0
+       sim        4        1        0        5        0        1        2       12       34        1
+  telefone        0        0        0        1        0        0        0        0        0       59
+
+Acerto por classe (recall):
+  casa: 100% (60/60)
+  eu_te_amo: 100% (60/60)
+  joia: 100% (60/60)
+  nao: 98% (59/60)
+  obrigado: 90% (54/60)
+  oi: 97% (58/60)
+  ok: 93% (56/60)
+  paz: 98% (59/60)
+  sim: 57% (34/60)
+  telefone: 98% (59/60)
